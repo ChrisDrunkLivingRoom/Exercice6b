@@ -21,3 +21,7 @@ body {
 	text-align:center;
 	background-color: aliceblue;
 }
+
+.entry-content p{
+    font-family: Arial, Helvetica, sans-serif;
+}
