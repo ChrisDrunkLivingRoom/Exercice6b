@@ -1,4 +1,4 @@
 window.addEventListener('load', function(){
 
-    console.log('oui animation')
+    console.log('oui animation');
 })

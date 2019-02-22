@@ -12,6 +12,12 @@
             array( $parent_style ),
             wp_get_theme()->get('Version')
         );
+        wp_enqueue_script(
+            'animation',
+            get_stylesheet_directory_uri() . '/js/animation.js',
+            array(),
+            filemtime( get_stylesheet_directory() . '/js/animation.js' )
+        );
     }
 
 
