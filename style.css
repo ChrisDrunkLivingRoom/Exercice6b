@@ -12,16 +12,32 @@
  Text Domain:  twentynineteeN-enfant
 */
 
-body {
-    background-color: whitesmoke;
-}
-
-.entry-title {
+.site-branding .site-title a {
 	color: red;
 	text-align:center;
 	background-color: aliceblue;
 }
 
-.entry-content p{
-    font-family: Arial, Helvetica, sans-serif;
+.site-branding .site-description {
+	color: green;
+	font-family: arial;
+}
+
+.site-logo img {
+	min-width: 100px;
+	min-height: 100px;
+}
+
+.site-logo a {
+	min-width: 100px;
+	min-height: 100px;
+}
+
+.site-branding{
+	display: flex;
+}
+
+.site-branding p {
+	justify-content: flex-start;
+	align-items: flex-start;
 }
